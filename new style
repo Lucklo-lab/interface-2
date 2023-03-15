@@ -1,0 +1,121 @@
+html{
+    background-color: white;
+}
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    padding:0;
+    margin: 0;
+}
+h1{
+    text-transform: uppercase;
+}
+ul
+{
+    list-style-type: none;
+}
+#hero
+{
+    height: 500px;
+    background: url(img/image-hero.jpg) no-repeat 50% 50%;
+    background-size: cover;         
+    padding: 5px;
+
+    
+}
+#til
+{
+    height: 200px;
+    width: 420px;
+    border: 3px rgba(238, 238, 238, 0.616) solid;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-bottom: 8px;
+    padding-right: 0px;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+#til h1{
+    text-align: justify;
+    font-size: 45px;
+    color:  rgba(238, 238, 238, 0.952);
+   
+}
+/********interactive****************************************/
+#imageplayer{
+    background: url(img/image-interactive.jpg) no-repeat;
+    margin-top: 120px;
+    margin-left: 120px;
+    height: 600px;
+    width: 700px;
+    
+    
+}
+#imageplayer p{
+display: inline;
+text-align: justify;
+width: 270px;
+font-size: 13px;
+
+
+}
+#imageplayer h1{
+    font-size: 32px;
+}
+#txt
+{
+    
+    height: 242px;
+    width: 280px;
+    float: right;
+    margin-top: 200px;
+    margin-right: -250px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border: 3px white solid;
+    
+    background-color: white;
+}
+/******************our creation**************/
+#creation a{
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 100px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb( 129, 129, 129);
+    height: 22px;
+    border: 2px rgb( 129, 129, 129) solid;
+}
+section
+{
+    margin-left: 120px;
+    margin-right: 100px;
+}
+#our
+{
+    font-size: 30px;
+}
+/************presentation*********/
+#presentation
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.images 
+{
+    height: 350px;
+    width: 250px;
+    padding: 5px 5px;
+}
